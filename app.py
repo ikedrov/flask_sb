@@ -9,7 +9,6 @@ app = Flask(__name__)
 
 @app.route('/hello_word')
 def test_function():
-
    return 'Привет, мир!'
 
 
